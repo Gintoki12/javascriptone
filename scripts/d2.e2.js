@@ -36,4 +36,18 @@ console.log(ranNum2)
 
 //Note:Using Math.floor rounds up the number....for some reason
 
+let challenge3='JavaScript'
+let randomNum=Math.floor(Math.random()*10)
+console.log(challenge3[randomNum])
+// number 10 accessing the string using a random number
 
+console.log('1\t1\t1\t1\t1\t\n2\t1\t2\t4\t8\t\n3\t1\t3\t9\t27\t\n4\t1\t4\t16\t64\t\n5\t1\t5\t25\t125\t')
+//number 11 using escape sequences to print out pattern 
+//backslash - escape sequence
+
+let challenge4='You cannot end a sentece with because because because is a conjunction'
+let index1=challenge4.indexOf('because')
+console.log(challenge4.substr(index1, 24))
+// number 12 using substr to slice out a substring (used indexof to find the initial position of first occurence of because)
+
+//End note: Before using any of the String methods write down the variable first and the '.' and use the required method.
