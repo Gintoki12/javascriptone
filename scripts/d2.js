@@ -51,3 +51,8 @@ console.log(challenge4.substr(index1, 24))
 // number 12 using substr to slice out a substring (used indexof to find the initial position of first occurence of because)
 
 //End note: Before using any of the String methods write down the variable first and the '.' and use the required method.
+
+//3rd exercise of 2nd day
+
+let challenge5='Love is the best thing in this world. Some found that their love and some are still looking for their love.'
+console.log(challenge5.match('love'))
