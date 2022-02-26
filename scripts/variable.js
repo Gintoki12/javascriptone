@@ -28,3 +28,7 @@ console.log(firstname, lastname, MaritalStatus, country, Age)
 let myAge='I am 25 years old.'
 yourAge= "You are 30 years old."
 console.log(myAge, yourAge)
+let challenge = '30 Days Of JavaScript'
+console.log(challenge.toUpperCase())
+console.log(challenge.length)
+
