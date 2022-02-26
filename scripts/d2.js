@@ -43,7 +43,7 @@ console.log(challenge3[randomNum])
 
 console.log('1\t1\t1\t1\t1\t\n2\t1\t2\t4\t8\t\n3\t1\t3\t9\t27\t\n4\t1\t4\t16\t64\t\n5\t1\t5\t25\t125\t')
 //number 11 using escape sequences to print out pattern 
-//backslash - escape sequence
+//backslash - escape character
 
 let challenge4='You cannot end a sentece with because because because is a conjunction'
 let index1=challenge4.indexOf('because')
@@ -55,4 +55,44 @@ console.log(challenge4.substr(index1, 24))
 //3rd exercise of 2nd day
 
 let challenge5='Love is the best thing in this world. Some found that their love and some are still looking for their love.'
-console.log(challenge5.match('love'))
+console.log(challenge5.match(/love/gi))
+//number 1 use slash instead of commas; g means search in whole text while i means case insensitive 
+
+console.log(challenge4.match(/because/gi))
+//number 2 count the number of because using match -3
+
+const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+const sentence2 = 'I am a teacher, and I love teaching. There is nothing as more rewarding as educating people. I found teaching more interesting than any other jobs. Does this motivate you to be a teacher? This 30 Days Of JavaScript is also the result for love of teaching.'
+let clean1=sentence.replace(sentence,sentence2)
+console.log(clean1)
+split=clean1.split(/\s/)
+console.log(split) 
+console.log(split.length)
+console.log(clean1.match(/I/g))
+console.log(clean1.match(/am/gi))
+console.log(clean1.match(/a/gi))
+console.log(clean1.match(/teacher/gi))
+console.log(clean1.match(/and/gi))
+console.log(clean1.match(/love/gi))
+console.log(clean1.match(/teaching/gi))
+console.log(clean1.match(/there/gi))
+console.log(clean1.match(/is/gi))
+console.log(clean1.match(/nothing/gi))
+console.log(clean1.match(/as/gi))
+console.log(clean1.match(/more/gi))
+console.log(clean1.match(/rewarding/gi))
+console.log(clean1.match(/educating/gi))
+console.log(clean1.match(/people/gi))
+//BUllshit exercise 
+
+let challenge6='He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+console.log(challenge6.indexOf(5000))
+let salaryOne = challenge6.substr(9,4)
+let salaryTwo = challenge6.substr(42,5)
+let salaryThree = challenge6.substr(challenge6.indexOf(15000),5)
+let Total = Number(salaryOne) + Number(salaryTwo) + +salaryThree
+console.log(Total)
+// for changing from string number to integer both '+' and 'Number' works also parseInt
+//End of day 2 exercise 
+//last two were a bit dissapointment
+
