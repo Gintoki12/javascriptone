@@ -140,3 +140,28 @@ lengthName
 : console.log('Your name is shorter than 7')*/
 //no 10.. compared length of a strign with a number and printed the expression according to the result
 
+let firstName2='Asabeneh'
+let lastName2='Yetayeh'
+let lengthName12= firstName2.length
+let lengthName13= lastName2.length
+let compare=lengthName12>lengthName13
+compare
+? console.log(`Your name ${firstName2} is longer than your family name ${lastName2}`)
+: console.log(`Your name is not longer than your first name`)
+//no11..
+
+let myAge= 250
+let yourAge= 25
+compare2= myAge>yourAge
+compare2
+? console.log(`I am ${myAge-yourAge} older than you`)
+: console.log(`I am ${yourAge-myAge} older than you`)
+//no12..
+
+/*let birthYear=prompt(`Enter your birth year`)
+let compare3= birthYear>=2004
+compare3
+? console.log(`You are ${2022-birthYear}. You are old enough to drive.`)
+: console.log(`You are ${2022-birthYear}. You will be able to drive after ${2004-birthYear} years.`)*/
+//no 13..
+
