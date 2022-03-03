@@ -92,4 +92,51 @@ console.log(area)
 console.log(perimeter)*/
 //no3.. found the area and perimeter using the prompt
 
-let 
+/*let radius = prompt('Enter radius')
+const pi = 3.14
+let area = pi*radius*radius
+console.log(area)*/
+//no4.. found the  area of circle using the prompt
+
+let y='2*x-2'
+let slope = 2
+let x_intercept = 'x'
+let y_intercept = 2
+console.log(y)
+console.log(`slope is ${slope}, x_intercept is ${x_intercept}, y_intercept is ${y_intercept}`)
+//no5.. used `and ${} to print out the required text and the answers (calculated the slope and the intercepts from the given questions)
+
+
+let firstPoint = [2,2]
+let secondPoint = [6,10]
+let slopeM = (secondPoint[1]-firstPoint[1]) / (secondPoint[0]-firstPoint[0])
+console.log(slopeM)
+//no6.. found the slope of the given points
+
+
+console.log(slopeM==slope)
+//no7.. compared the slope of no5 and no6
+
+/*let x = prompt('Enter the value of x:')
+let x2 = parseInt(x)
+let y2 =  (x**2) + (6*x) + 9
+console.log(typeof x2)
+console.log(y2)*/
+//no 8.. calculated the values using arithmetic operators {Note: power is not ^ but **}
+
+/*let hours = prompt('Enter hours:')
+let rate = prompt('Enter rate per hour:')
+let hours2 = parseInt(hours)
+let rate2= parseInt(rate)
+let totalEarning=hours2 * rate2
+console.log(totalEarning)*/
+//no 9..
+
+/*let myName = prompt('enter your name:')
+let myNameLength = myName.length
+let lengthName = myNameLength>=7
+lengthName
+? console.log('Your name is longer than 7')
+: console.log('Your name is shorter than 7')*/
+//no 10.. compared length of a strign with a number and printed the expression according to the result
+
