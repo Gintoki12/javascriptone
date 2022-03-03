@@ -65,4 +65,31 @@ console.log(now.getTime())
 
 
 
+//Exercise 2
 
+
+/*let base = prompt("Enter base:")
+let height = prompt('Enter height:')
+Area = 0.5*base*height
+console.log(Area)*/
+        //no1.. found the area of triangle using prompt to take in user value
+
+/*let a = prompt('Enter side a:')
+let b = prompt('Enter side b:')
+let c = prompt('Enter side c:')
+let sidea = parseInt(a)
+let sideb = parseInt(b)
+let sidec = parseInt(c)
+let perimeter = (sidea + sideb + sidec)
+console.log(perimeter)*/
+        //no2.. found the perimeter using prompt .....using'+' might also concantate the values because prompt takes the value as a string
+
+/*let length = prompt('Enter length:')
+let width = prompt('Enter width:')
+let area = length * width
+let perimeter = 2*(parseInt(length) + parseInt(width))
+console.log(area)
+console.log(perimeter)*/
+//no3.. found the area and perimeter using the prompt
+
+let 
