@@ -165,3 +165,31 @@ compare3
 : console.log(`You are ${2022-birthYear}. You will be able to drive after ${2004-birthYear} years.`)*/
 //no 13..
 
+let year2=100
+let liveYear=year2*24*60*60*365
+console.log(liveYear)
+//no14.. could run prompt on online compiler so just declared the variables
+
+let now = new Date()
+let year = now.getFullYear()
+let month= now.getMonth()
+let day= now.getDate()
+let hour= now.getHours()
+let minute= now.getMinutes()
+console.log(`${year}-${month}-${day} ${hour}:${minute}`)
+console.log(`${day}-${month}-${year} ${hour}:${minute}`)
+console.log(`${day}/${month}/${year} ${hour}:${minute}`)
+//no15.. create a human readable time format using the date time object
+
+//Exercise 3
+
+let now = new Date()
+let year = now.getFullYear()
+let month= now.getMonth()+1
+let day= now.getDate()
+let hour= now.getHours()
+let minute= now.getMinutes()
+let hour2=("0"+hour).slice(-2)
+let minute2=("0"+minute).slice(-2)
+console.log(`${year}-${month}-${day} ${hour2}:${minute2}`)
+//no1. use slice after concantating 0 in front of hour and minute
